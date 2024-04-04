@@ -1,0 +1,35 @@
+{
+  "name": "t-i-r",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel --port 8080",
+    "build": "parcel build",
+    "check": "tsc --noEmit",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
+    "test": "jest",
+    "coverage": "jest --coverage --coverage-reporters html",
+    "watch:test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
+    "eslint-config-xo": "^0.44.0",
+    "eslint-config-xo-typescript": "^4.0.0",
+    "eslint-plugin-react": "^7.34.1",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
